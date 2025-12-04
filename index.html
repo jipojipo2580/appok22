@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>正在跳转...</title>
+  <script>
+    // 定义你的3个域名
+    const domains = [
+      "https://vnq3.com",
+    ];
+
+    // 随机选择一个域名
+    const randomIndex = Math.floor(Math.random() * domains.length);
+    const selectedDomain = domains[randomIndex];
+
+    // 进行跳转
+    window.location.href = selectedDomain;
+  </script>
+</head>
+<body>
+  <p>正在跳转，请稍候...</p>
+</body>
+</html>
